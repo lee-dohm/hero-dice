@@ -1,11 +1,3 @@
-//
-//  HeroDiceUITests.swift
-//  HeroDiceUITests
-//
-//  Created by Lee Dohm on 6/22/20.
-//  Copyright © 2020 Lee Dohm. All rights reserved.
-//
-
 import XCTest
 
 class HeroDiceUITests: XCTestCase {
