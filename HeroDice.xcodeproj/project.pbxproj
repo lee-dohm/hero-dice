@@ -16,6 +16,8 @@
 		9B0DDF0524A17A060028863A /* HeroDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DDF0424A17A060028863A /* HeroDiceTests.swift */; };
 		9B0DDF1024A17A060028863A /* HeroDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DDF0F24A17A060028863A /* HeroDiceUITests.swift */; };
 		9B186C1724A181AB00AB724F /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B186C1624A181AB00AB724F /* DiceView.swift */; };
+		9B186C1924A1853F00AB724F /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B186C1824A1853F00AB724F /* Dice.swift */; };
+		9B186C1C24A185DE00AB724F /* DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B186C1B24A185DE00AB724F /* DiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9B0DDF0F24A17A060028863A /* HeroDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDiceUITests.swift; sourceTree = "<group>"; };
 		9B0DDF1124A17A060028863A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B186C1624A181AB00AB724F /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		9B186C1824A1853F00AB724F /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		9B186C1B24A185DE00AB724F /* DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				9B0DDEEF24A17A050028863A /* SceneDelegate.swift */,
 				9B0DDEF124A17A050028863A /* ContentView.swift */,
 				9B186C1624A181AB00AB724F /* DiceView.swift */,
+				9B186C1824A1853F00AB724F /* Dice.swift */,
 				9B0DDEF324A17A050028863A /* Assets.xcassets */,
 				9B0DDEF824A17A050028863A /* LaunchScreen.storyboard */,
 				9B0DDEFB24A17A050028863A /* Info.plist */,
@@ -126,6 +131,7 @@
 			children = (
 				9B0DDF0424A17A060028863A /* HeroDiceTests.swift */,
 				9B0DDF0624A17A060028863A /* Info.plist */,
+				9B186C1B24A185DE00AB724F /* DiceTests.swift */,
 			);
 			path = HeroDiceTests;
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 			files = (
 				9B0DDEEE24A17A050028863A /* AppDelegate.swift in Sources */,
 				9B186C1724A181AB00AB724F /* DiceView.swift in Sources */,
+				9B186C1924A1853F00AB724F /* Dice.swift in Sources */,
 				9B0DDEF024A17A050028863A /* SceneDelegate.swift in Sources */,
 				9B0DDEF224A17A050028863A /* ContentView.swift in Sources */,
 			);
@@ -281,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B186C1C24A185DE00AB724F /* DiceTests.swift in Sources */,
 				9B0DDF0524A17A060028863A /* HeroDiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
