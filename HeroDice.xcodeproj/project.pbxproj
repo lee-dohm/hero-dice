@@ -15,6 +15,7 @@
 		9B0DDEFA24A17A050028863A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DDEF824A17A050028863A /* LaunchScreen.storyboard */; };
 		9B0DDF0524A17A060028863A /* HeroDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DDF0424A17A060028863A /* HeroDiceTests.swift */; };
 		9B0DDF1024A17A060028863A /* HeroDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DDF0F24A17A060028863A /* HeroDiceUITests.swift */; };
+		9B186C1724A181AB00AB724F /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B186C1624A181AB00AB724F /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B0DDF0B24A17A060028863A /* HeroDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0DDF0F24A17A060028863A /* HeroDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDiceUITests.swift; sourceTree = "<group>"; };
 		9B0DDF1124A17A060028863A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B186C1624A181AB00AB724F /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9B0DDEED24A17A050028863A /* AppDelegate.swift */,
 				9B0DDEEF24A17A050028863A /* SceneDelegate.swift */,
 				9B0DDEF124A17A050028863A /* ContentView.swift */,
+				9B186C1624A181AB00AB724F /* DiceView.swift */,
 				9B0DDEF324A17A050028863A /* Assets.xcassets */,
 				9B0DDEF824A17A050028863A /* LaunchScreen.storyboard */,
 				9B0DDEFB24A17A050028863A /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0DDEEE24A17A050028863A /* AppDelegate.swift in Sources */,
+				9B186C1724A181AB00AB724F /* DiceView.swift in Sources */,
 				9B0DDEF024A17A050028863A /* SceneDelegate.swift in Sources */,
 				9B0DDEF224A17A050028863A /* ContentView.swift in Sources */,
 			);
